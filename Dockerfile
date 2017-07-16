@@ -47,7 +47,7 @@ ENV PLEX_MEDIA_SERVER_MAX_PLUGIN_PROCS=6 \
 
 COPY root /
 
-VOLUME ["/config", "/media"]
+VOLUME ["/config", "/media", "/storage"]
 
 EXPOSE 32400
 
